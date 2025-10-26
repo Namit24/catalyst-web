@@ -12,7 +12,7 @@ export const advisoryBoard: TeamMember[] = [
 		imageUrl: "/team/venkat_ghodke.webp",
 		linkedinUrl: "https://www.linkedin.com/in/dr-venkat-ghodke-3476a81b1/",
 	},
- {
+	{
 		name: "Laukik Patil",
 		role: "Advisor",
 		imageUrl: "/team/laukik_patil.webp",
@@ -40,7 +40,7 @@ export const committeeLeads: TeamMember[] = [
 		linkedinUrl: "https://www.linkedin.com/in/aryan-basnet-446973235/",
 	},
 	{
-		name: "Manasi Chaudhari",
+		name: "Manasi Choudhari",
 		role: "Vice President",
 		imageUrl: "/team/manasi_choudhari.webp",
 		linkedinUrl: "https://www.linkedin.com/in/manasi-choudhari-887b1428a/",
