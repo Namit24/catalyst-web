@@ -7,16 +7,16 @@ export interface TeamMember {
 
 export const advisoryBoard: TeamMember[] = [
 	{
-		name: "Laukik Patil",
-		role: "Advisor",
-		imageUrl: "/team/laukik_patil.webp",
-		linkedinUrl: "https://www.linkedin.com/in/laukikp/",
-	},
-	{
 		name: "Dr. Venkat Ghodke",
 		role: "Advisor",
 		imageUrl: "/team/venkat_ghodke.webp",
 		linkedinUrl: "https://www.linkedin.com/in/dr-venkat-ghodke-3476a81b1/",
+	},
+ {
+		name: "Laukik Patil",
+		role: "Advisor",
+		imageUrl: "/team/laukik_patil.webp",
+		linkedinUrl: "https://www.linkedin.com/in/laukikp/",
 	},
 	{
 		name: "Parimal Kalpande",
