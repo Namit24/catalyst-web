@@ -10,18 +10,25 @@ export interface Project {
 
 export const currentProjectsData: Project[] = [
 	{
-		title: "Indigenous Flight Control Unit (FCU) Development",
+		title:
+			"Marut - Advanced ARM Cortex-M4 based FCU with fixed wing and multi rotor support",
 		category: "Project Collaboration",
 		lead: "Aryan Basnet (TY E&TC)",
-		team: ["Siddesh Vatvikar (SY E&TC)", "Sharal Vishwakarma (SY E&TC)"],
+		team: [
+			"Siddesh Vatvikar (SY E&TC)",
+			"Sharal Vishwakarma (SY E&TC)",
+			"Karan Tikoo (TY COMP)",
+			"Yash Tawar (SY E&TC)",
+			"Shreyas (FY)",
+		],
 		description:
-			"A collaborative initiative between Team Aeroguardians of the IoIT Drone Club and the Catalyst Committee to design, develop, and test a custom-designed, locally manufactured Flight Control Unit (FCU) to significantly advance drone and Unmanned Aerial Vehicle (UAV) development within the college.",
+			"Marut is an advanced Flight Control Unit (FCU) being developed at AISSMS IOIT in collaboration with Team Aeroguardians. It combines cutting-edge control algorithms, real-time telemetry, and autonomous navigation for both fixed-wing and quadrotor aircraft. Built for precision, reliability, and innovation, Marut aims to set a new standard in Aerospace flight control R&D.",
 		features: [
-			"Design and develop a fully functional, indigenous Flight Control Unit (FCU) optimized for college-level drone and UAV projects.",
+			"Design and develop a fully functional, indigenous Flight Control Unit (FCU) optimized for research-level drone and UAV projects.",
 			"Create a foundational FCU for customization across various drone applications (research, competition, academic).",
 			"Foster inter-team collaboration and knowledge sharing in aerospace engineering and embedded systems.",
 			"Provide hands-on experience in FCU design, development, and testing.",
-			"Enhance the college's capabilities and reputation in drone and UAV technology development.",
+			"Enhance the college's capabilities in drone and UAV technology development.",
 		],
 		imageUrl: "/projects/fcuproject.jpg",
 	},
