@@ -4,14 +4,22 @@ export interface TeamMember {
 	imageUrl: string;
 	linkedinUrl: string;
 }
-
-export const advisoryBoard: TeamMember[] = [
+export const faculties: TeamMember[] = [
+	{
+		name: "Dr. Pradeep Mane",
+		role: "Principal",
+		imageUrl: "/team/pradeep_mane.webp",
+		linkedinUrl: "https://www.linkedin.com/in/dr-pradeep-mane/",
+	},
 	{
 		name: "Dr. Venkat Ghodke",
-		role: "Advisor",
+		role: "Faculty Advisor",
 		imageUrl: "/team/venkat_ghodke.webp",
 		linkedinUrl: "https://www.linkedin.com/in/dr-venkat-ghodke-3476a81b1/",
 	},
+];
+
+export const advisoryBoard: TeamMember[] = [
 	{
 		name: "Laukik Patil",
 		role: "Advisor",
