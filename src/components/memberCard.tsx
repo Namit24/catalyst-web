@@ -1,7 +1,6 @@
 import React from "react";
 import { motion, type Variants } from "framer-motion";
-import { LinkedInIcon } from "./ui/icons.tsx";
-import type { TeamMember } from "../data/team.ts";
+import { socialIcons, type TeamMember } from "../data/team.tsx";
 
 interface MemberCardProps {
 	member: TeamMember;
@@ -17,7 +16,7 @@ const MemberCard: React.FC<MemberCardProps> = ({ member, className = "" }) => {
 	return (
 		<motion.div
 			className={[
-				"border border-white/20 bg-[#1a1a1a] group overflow-hidden text-center flex flex-col items-center p-8 w-full max-w-sm mx-auto",
+				"border border-white/20 bg-[#1a1a1a] group overflow-hidden text-center flex flex-col items-center p-8 w-full max-w-sm mx-auto min-h-96",
 				className,
 			].join(" ")}
 			variants={cardVariants}
@@ -35,15 +34,18 @@ const MemberCard: React.FC<MemberCardProps> = ({ member, className = "" }) => {
 			<p className="mt-1 text-purple-400 text-sm tracking-wider">
 				{member.role}
 			</p>
-			<a
-				href={member.linkedinUrl}
-				target="_blank"
-				rel="noopener noreferrer"
-				className="mt-6 text-white/60 hover:text-white transition-colors"
-				aria-label={`LinkedIn profile of ${member.name}`}
-			>
-				<LinkedInIcon className="h-6 w-6" />
-			</a>
+			{member.socials.map((social) => (
+				<a
+					key={social.name}
+					href={social.url}
+					target="_blank"
+					rel="noopener noreferrer"
+					className="mt-auto text-white/60 hover:text-white transition-colors"
+					aria-label={`LinkedIn profile of ${member.name}`}
+				>
+					{socialIcons.get(social.name)}
+				</a>
+			))}
 		</motion.div>
 	);
 };

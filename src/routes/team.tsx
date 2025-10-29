@@ -8,7 +8,7 @@ import {
 	committeeLeads,
 	coreMembers,
 	faculties,
-} from "../data/team.ts";
+} from "../data/team.tsx";
 
 export const Route = createFileRoute("/team")({
 	component: RouteComponent,
