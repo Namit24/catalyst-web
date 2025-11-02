@@ -162,7 +162,7 @@ export const coreMembers: TeamMember[] = [
 			},
 		],
 	},
-	,
+	
 	{
 		name: "Sarvesh Kolte",
 		role: "Tech Team",
