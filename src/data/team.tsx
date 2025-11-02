@@ -18,7 +18,7 @@ socialIcons.set("portfolio", <GlobeIcon className="h-6 w-6" />);
 export const faculties: TeamMember[] = [
 	{
 		name: "Dr. Pradeep Mane",
-		role: "Principal",
+		role: "Chairperson",
 		imageUrl: "/team/pradeep_mane.webp",
 		socials: [
 			{
@@ -162,17 +162,7 @@ export const coreMembers: TeamMember[] = [
 			},
 		],
 	},
-	{
-		name: "Sainath Chavan",
-		role: "Tech Team",
-		imageUrl: "/team/sainath_chavan.webp",
-		socials: [
-			{
-				name: "linkedin",
-				url: "https://www.linkedin.com/in/sainath-chavan-476940289/",
-			},
-		],
-	},
+	
 	{
 		name: "Sarvesh Kolte",
 		role: "Tech Team",
@@ -183,18 +173,7 @@ export const coreMembers: TeamMember[] = [
 				url: "https://www.linkedin.com/in/sarvesh-kolte-84a031181/",
 			},
 		],
-	},
-	{
-		name: "Meghraj Jare",
-		role: "Tech Team",
-		imageUrl: "/team/meghraj_jare.webp",
-		socials: [
-			{
-				name: "linkedin",
-				url: "https://www.linkedin.com/in/meghrajjare5273/",
-			},
-		],
-	},
+	},	
 	{
 		name: "Raj Gaikwad",
 		role: "Tech Team",
